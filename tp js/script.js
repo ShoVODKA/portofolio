@@ -23,7 +23,7 @@ function division() {
     let a = Number(document.getElementById("t1").value);
     let b = Number(document.getElementById("t2").value);
     if (b === 0) {
-        alert("Erreur : division par zéro impossible !");
+        alert("Erreur : division par zéro !");
         document.getElementById("t3").value = "";
     } else {
         document.getElementById("t3").value = a / b;
@@ -42,7 +42,7 @@ function permute() {
 function parite() {
     let x = Number(document.getElementById("t3").value);
     if (isNaN(x)) {
-        alert("Veuillez d'abord effectuer une opération pour avoir un résultat.");
+        alert("Veuillez d'abord effectuer une opération.");
     } else if (x % 2 === 0) {
         document.getElementById("t4").value = "Pair";
     } else {
