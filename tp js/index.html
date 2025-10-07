@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculatrice JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Mini Calculatrice JavaScript</h1>
+
+    <label>Nombre 1</label><br>
+    <input type="text" id="t1" placeholder="Saisir un nombre"><br>
+
+    <label>Nombre 2</label><br>
+    <input type="text" id="t2" placeholder="Saisir un nombre"><br>
+
+    <button onclick="addition()">Addition</button>
+    <button onclick="soustraction()">Soustraction</button>
+    <button onclick="multiplication()">Multiplication</button>
+    <button onclick="division()">Division</button>
+    <button onclick="permute()">Permutation</button>
+    <button onclick="parite()">Parité</button>
+    <button onclick="effacer()">Effacer</button>
+
+    <br><br>
+
+    <label>Résultat :</label><br>
+    <input type="text" id="t3" placeholder="Résultat" readonly><br>
+
+    <label>Pair / Impair :</label><br>
+    <input type="text" id="t4" placeholder="Parité" readonly><br><br>
+
+    <p id="explication">
+        Grâce à ce TP, j’ai appris à manipuler le DOM avec JavaScript, à créer des fonctions pour gérer les événements
+        comme les clics sur les boutons, et à séparer le code HTML, CSS et JS.  
+        J’ai aussi compris comment contrôler les entrées utilisateurs, effectuer des calculs simples,
+        et remettre un formulaire à zéro. Ce travail m’a permis de mieux comprendre le lien entre la logique et l’affichage.
+    </p>
+</body>
+</html>
