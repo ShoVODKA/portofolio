@@ -23,8 +23,7 @@ function division() {
     let a = Number(document.getElementById("t1").value);
     let b = Number(document.getElementById("t2").value);
     if (b === 0) {
-        alert("Erreur : division par zéro !");
-        document.getElementById("t3").value = "";
+        document.getElementById("t3").value = "Erreur";
     } else {
         document.getElementById("t3").value = a / b;
     }
