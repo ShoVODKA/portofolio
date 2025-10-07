@@ -43,8 +43,8 @@ input.pair {
 }
 
 button {
-    width: 60px;
-    height: 40px;
+    width: 120px; 
+    height: 50px; 
     margin: 5px;
     border: none;
     border-radius: 20px;
